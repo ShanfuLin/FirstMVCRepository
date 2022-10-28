@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shanf\\Downloads\\ColorGridSSE\\ColorGridSSE\\ColorGridSSE.csproj": {}
+    "C:\\Users\\Shanf\\Github\\ColorGridSSE\\ColorGridSSE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shanf\\Downloads\\ColorGridSSE\\ColorGridSSE\\ColorGridSSE.csproj": {
+    "C:\\Users\\Shanf\\Github\\ColorGridSSE\\ColorGridSSE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shanf\\Downloads\\ColorGridSSE\\ColorGridSSE\\ColorGridSSE.csproj",
+        "projectUniqueName": "C:\\Users\\Shanf\\Github\\ColorGridSSE\\ColorGridSSE.csproj",
         "projectName": "ColorGridSSE",
-        "projectPath": "C:\\Users\\Shanf\\Downloads\\ColorGridSSE\\ColorGridSSE\\ColorGridSSE.csproj",
+        "projectPath": "C:\\Users\\Shanf\\Github\\ColorGridSSE\\ColorGridSSE.csproj",
         "packagesPath": "C:\\Users\\Shanf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shanf\\Downloads\\ColorGridSSE\\ColorGridSSE\\obj\\",
+        "outputPath": "C:\\Users\\Shanf\\Github\\ColorGridSSE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shanf\\AppData\\Roaming\\NuGet\\NuGet.Config",
