@@ -1,0 +1,49 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+
+/******* My own style *********/
+.node {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.pen {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+#coral-pen {
+    background-color: #ff7f50;
+    cursor: pointer;
+}
+
+#cornflower-pen {
+    background-color: #6495ed;
+    cursor: pointer;
+}
+
+.selected-pen {
+    border: 2px solid #000;
+}
