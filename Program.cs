@@ -2,6 +2,22 @@
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.WebHost.ConfigureKestrel(serverOptions =>
+{
+    serverOptions.ConfigureHttpsDefaults(listenOptions =>
+    {
+        var portVar = Environment.GetEnvironmentVariable("PORT");
+        if (portVar is { Length: > 0 } && int.TryParse(portVar, out int port))
+        {
+
+            builder.WebHost.ConfigureKestrel(options =>
+            {
+                options.ListenAnyIP(port);
+            });
+        }
+    });
+});
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
