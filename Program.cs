@@ -9,8 +9,6 @@ builder.Services.AddSingleton<ColorChangeTracker>();
 
 var app = builder.Build();
 
-app.Run("http://localhost:3000");
-
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
